@@ -13,5 +13,6 @@ const student ={
     marks:8.5, 
     isPass:true
 };
-student["age"] = student["age"] + 1; // vaule changing in object 
+student["marks"] = student["marks"] + 1; // vaule changing in object 
 console.log(student.age);
+console.log(student.marks);
