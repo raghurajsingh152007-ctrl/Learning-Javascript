@@ -44,12 +44,20 @@ console.log("cond1||cond2 =", cond1 || cond2);
 console.log("cond1&&cond2 =", !(cond1 && cond2));
 
 // Conditional Statements
-let mode="dark";
-let color;
-if(mode=="dark"){
-    color="black";
+let number = 10;
+if (number % 2 == 0) {
+  console.log(number, "The number is even");
+} else if (number % 2 != 0) {
+  console.log(number, "The number is odd");
+} else {
+  console.log("Enter the valid number ");
 }
-else{
-    color="white";
+
+// Pratice Question
+let num = prompt("Enter Your Number:");
+
+if (num % 5 == 0) {
+  console.log("The number is divisble by 5");
+} else {
+  console.log("The number is not divisible by 5");
 }
-console.log("color");
