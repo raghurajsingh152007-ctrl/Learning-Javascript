@@ -6,9 +6,13 @@ const student = {
   isPass: true,
 };
 
+let output = `The Age of Studentis ${student.age}, The marks are ${student.marks}`;
+console.log(output);
+
 student["marks"] = student["marks"] + 1; // vaule changing in object
-console.log(student.age);
-console.log(student.marks);
+
+// console.log(student.age);
+// console.log(student.marks);
 
 // learning Arthematic operators
 let a = 5;
@@ -67,16 +71,24 @@ while (i <= 5) {
   i++;
 }
 
-// for-of loop
-let str = "Raghu";
-let size = 0;
-for (let i of str) {
-  console.log("i=", i);
-  size++;
-}
-console.log("str size is =", size);
+// // for-of loop
+// let str = "Raghu";
+// let size = 0;
+// for (let i of str) {
+//   console.log("i=", i);
+//   size++;
+// }
+// console.log("str size is =", size);
 
 // for-in loop
 for (let key in student) {
   console.log("Key is = ", key, "value=", student[key]);
 }
+
+// Strings
+
+let str = "Apna College";
+console.log("theString is =" ,str);
+console.log(str[0]);
+console.log(str[7]);
+console.log(str.length);
