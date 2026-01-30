@@ -14,25 +14,9 @@ student["marks"] = student["marks"] + 1; // vaule changing in object
 // console.log(student.age);
 // console.log(student.marks);
 
-// learning Arthematic operators
-let a = 5;
-let b = 2;
-console.log("a=", a, "&b=", b);
-console.log("a + b =", a + b);
-console.log("a - b =", a - b);
-console.log("a * b =", a * b);
-console.log("a / b =", a / b);
-console.log("a % b =", a % b);
-console.log("a ** b =", a ** b);
-
-// Comparsion operators
-console.log("a==b", a == b);
-console.log("a=b", a != b);
-console.log("a>b", a > b);
-console.log("a<b", a < b);
-console.log("a==b", a == b);
-
 // logical opertor
+let a=5;
+let b=2;
 let cond1 = a > b;
 let cond2 = a == 4;
 console.log("cond1&&cond2 =", cond1 && cond2);
