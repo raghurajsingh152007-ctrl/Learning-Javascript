@@ -24,12 +24,6 @@ Practice Exercises: Small scripts testing variable manipulation.
 
 Mini-Object Models: Creating objects to represent things like user profiles or gaming stats.
 
-📈 Next Steps
-[ ] Arrays and Methods
-
-[ ] Functions and Scope
-
-[ ] DOM Manipulation (Making things interactive!)
 
 "The best way to learn a new language is to build something with it." 💻
 
@@ -66,5 +60,6 @@ Strings: Understanding how to manipulate text, including indexing, slicing, and 
 Loops: Implementing for and while loops to iterate through data structures and control program flow efficiently.
 
 Integration: Combining loops with strings to perform operations like character counting and text reversal.
+
 
 
