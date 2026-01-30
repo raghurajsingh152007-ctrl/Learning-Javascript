@@ -1,11 +1,3 @@
-console.log("Raghuraj Singh"); // to print somithing
-console.log(" I am learning JS");
-age = 24;
-console.log(age); // variable declarlation
-let name = "tony stark"; // can be updated
-const PI = 3.14; // can not be updated
-console.log(name);
-
 // object understanding
 const student = {
   fullName: "RaghurajSingh", // key : "value" pair
@@ -53,11 +45,38 @@ if (number % 2 == 0) {
   console.log("Enter the valid number ");
 }
 
-// Pratice Question
-let num = prompt("Enter Your Number:");
+// // Pratice Question
+// let num = prompt("Enter Your Number:");
 
-if (num % 5 == 0) {
-  console.log("The number is divisble by 5");
-} else {
-  console.log("The number is not divisible by 5");
+// if (num % 5 == 0) {
+//   console.log("The number is divisble by 5");
+// } else {
+//   console.log("The number is not divisible by 5");
+// }
+
+// Loops and srtings
+let sum = 0;
+for (let i = 1; i <= 5; i++) {
+  sum = sum + i;
+}
+console.log("Sum is :", sum);
+
+let i = 1;
+while (i <= 5) {
+  console.log("i is=", i);
+  i++;
+}
+
+// for-of loop
+let str = "Raghu";
+let size = 0;
+for (let i of str) {
+  console.log("i=", i);
+  size++;
+}
+console.log("str size is =", size);
+
+// for-in loop
+for (let key in student) {
+  console.log("Key is = ", key, "value=", student[key]);
 }
